@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECE Projects</title>
+  <style>
+    /* Basic resets and body styling */
+    body, h1, ul, li, input, textarea {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Project container styling */
+    .project-container {
+      text-align: center;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 600px;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #063552;
+    }
+
+    /* Form styling */
+    .form-container {
+      margin-bottom: 20px;
+      text-align: left;
+      font-size: 1em;
+    }
+
+    .form-container label {
+      font-weight: bold;
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    .form-container input, .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .form-container textarea {
+      height: 100px;
+    }
+
+    .projects-list {
+      list-style-type: decimal;
+      padding-left: 20px;
+      text-align: left;
+      font-size: 1.1em;
+      line-height: 1.8em;
+    }
+
+    .project {
+      background-color: #063552;
+      color: white;
+      margin: 8px 0;
+      padding: 12px;
+      border-radius: 5px;
+    }
+
+    .project a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="project-container">
+    <h1>Innovative Academic Real-time Live Projects for ECE</h1>
+    
+    <!-- Form Section -->
+    <div class="form-container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name">
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email">
+
+      <label for="college">College:</label>
+      <input type="text" id="college" name="college" placeholder="Your College Name">
+
+      <label for="projectCode">Project Code:</label>
+      <input type="text" id="projectCode" name="projectCode" placeholder="Enter Project Code">
+
+      <label for="message">Your Request/Message:</label>
+      <textarea id="message" name="message" placeholder="Enter your request or idea here..."></textarea>
+    </div>
+
+    <!-- Project List Section -->
+    <ul class="projects-list">
+      <li class="project">HVS-2079. <a href="#">A Smart Switch To Connect And Disconnect Electrical Devices At Home By Using Internet. (IEEE-2016)</a></li>
+      <li class="project">HVS-2057. <a href="#">Smart Electricity Meter Data Intelligence For Future Energy Systems A Survey. (IEEE-2016)</a></li>
+      <li class="project">HVS-2175. <a href="#">Embedded Linux based Smart security system using IOT and Raspberry Pi processor</a></li>
+      <li class="project">HVS-1982. <a href="#">A Handheld Inertial Pedestrian Navigation System With Accurate Step Modes and Device Poses Recognition. (IEEE-2015)</a></li>
+      <li class="project">HVS-1945. <a href="#">Unique Id Based Automatic Car Parking System and Time Based Billing with CC Camera Image Capture Technique Along With SMS Feedback</a></li>
+      <li class="project">HVS-2141. <a href="#">ARM 11 Based Location Positioning System</a></li>
+      <li class="project">HVS-1839. <a href="#">Railway Track Pedestrian Crossing between Platforms (Movable and flexible railway platform)</a></li>
+      <li class="project">HVS-2145. <a href="#">Automatic Fatality Prevention and Emergency Aid System</a></li>
+      <li class="project">HVS-2174. <a href="#">Embedded Linux Based Remote Meter Reading Using IOT</a></li>
+      <li class="project">HVS-2076. <a href="#">IOT Based Smart Healthcare Kit. (IEEE-2016)</a></li>
+      <li class="project">HVS-2043. <a href="#">Autonomous Gas Detection and Mapping with Unmanned Aerial Vehicles. (IEEE-2016)</a></li>
+      <li class="project">HVS-2073. <a href="#">Self-Configuration And Smart Binding Control On IOT Applications. (IEEE-2016)</a></li>
+      <li class="project">HVS-2123. <a href="#">A Tele-medicine System for Measuring Heart Rate, Blood pressure, And Drug Level Detection</a></li>
+      <li class="project">HVS-2066. <a href="#">Point-N-Press: An Intelligent Universal Remote Control System For Home Appliances. (IEEE-2016)</a></li>
+      <li class="project">HVS-2080. <a href="#">A Conceptual Framework For IOT-Based Healthcare System Using Cloud Computing. (IEEE-2016)</a></li>
+      <li class="project">HVS-2082. <a href="#">Coexistence Of Zigbee-Based WBAN And Wi-Fi For Health Telemonitoring Systems. (IEEE-2016)</a></li>
+      <li class="project">HVS-2087. <a href="#">Real-Time Patient Health Monitoring And Alarming Using Wireless Sensor- Network. (IEEE-2016)</a></li>
+      <li class="project">HVS-1931. <a href="#">Human Health Monitoring And Voice Based Alerting System At Abnormal Condition Using Wireless FM Radio Signals</a></li>
+      <li class="project">HVS-2075. <a href="#">Low-Power Wearable ECG Monitoring System For Multiple-Patient Remote Monitoring. (IEEE-2016)</a></li>
+      <li class="project">HVS-2086. <a href="#">The Design Of Building Fire Monitoring System Based On Zigbee-Wifi Networks. (IEEE-2016)</a></li>
+      <li class="project">HVS-2081. <a href="#">A Smart Helmet For Air Quality And Hazardous Event Detection For The Mining Industry. (IEEE-2016)</a></li>
+      <li class="project">HVS-2077. <a href="#">Effective Ways To Use Internet Of Things In The Field Of Medical And Smart Health Care. (IEEE-2016)</a></li>
+      <li class="project">HVS-2048. <a href="#">Enhanced Fingerprinting And Trajectory Prediction For IOT Localization In Smart Buildings. (IEEE-2016)</a></li>
+      <h4><b>Contact Info</b></h4>
+      <li>Email: hvsinbox@gmail.com</li>
+      <li>Ph : +91 9603140482 </li>
+    </ul>
+  </div>
+</body>
+</html>
